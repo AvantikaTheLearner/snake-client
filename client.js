@@ -12,6 +12,21 @@ const connect = function() {
     // code that does something when the connection is first established
     console.log("Successfully connected to game server");
     conn.write('Name: Avi');
+    /*setTimeout(() => {
+      conn.write("Move: up");
+    }, 2000);
+    setTimeout(() => {
+      conn.write("Move: up");
+    }, 6000);
+    setTimeout(() => {
+      conn.write("Move: up");
+    }, 8000);
+    setTimeout(() => {
+      conn.write("Move: left");
+    }, 10000);
+     conn.write("Move: left");
+     conn.write("Move: left");
+     conn.write("Move: left");*/
   });
 
   return conn;

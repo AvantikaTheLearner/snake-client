@@ -23,7 +23,7 @@ const setupInput = function(conn) {
     } else if (handleUserInput === 'd') {
       connection.write("Move: right");
     }
-    //process.stdout.write('.');
+    process.stdout.write('.');
   });
   return stdin;
 };
